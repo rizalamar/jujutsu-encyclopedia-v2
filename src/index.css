@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+	/* Fonts */
+	--font-title: "Permanent Marker", cursive;
+	--font-body: "Space Gratesk", sans-serif;
+
+	/* JJK Color Pallete */
+	--color-void-black: #050505;
+	--color-charcoal: #121212;
+	--color-cursed-purple: #8a2be2;
+	--color-infinite-blue: #00d4ff;
+	--color-sukuna-red: #8b0000;
+}
+
+:root {
+	background-color: var(--color-void-black);
+	color: white;
+	font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+.font-title {
+	font-family: var(--font-title);
+}
